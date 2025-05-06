@@ -2,7 +2,7 @@ from openpyxl import load_workbook
 import os
 
 # You must change the physical path before running this script.
-currPath = os.getcwd()+"/04. Openpyxl/02. Cell Example/"
+currPath = os.getcwd()+"/04. Openpyxl/02. Cell Example/13. 파일 읽기-쓰기 성능 최적화/"
 # # # Check the current path
 print("Current Path:", currPath)
 

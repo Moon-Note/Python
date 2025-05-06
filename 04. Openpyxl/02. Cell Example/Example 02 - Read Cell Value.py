@@ -1,9 +1,13 @@
 import openpyxl
+import os
 
 from openpyxl import load_workbook
 
 # You must change the physical path before running this script.
-currPath = "C:/Users/natio/OneDrive - 성균관대학교/99. Personal Blog/05. Python/05. OPENPYXL/02. Cell Example/"
+currPath = os.getcwd()+"/04. Openpyxl/02. Cell Example/"
+# # Check the current path
+print("Current Path:", currPath)
+
 
 # # Load the excel file
 wb = openpyxl.load_workbook(filename=currPath+"Cell Example File.xlsx")
